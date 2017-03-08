@@ -1,0 +1,42 @@
+<div>
+    
+    <div class="container">
+        <h1>Check Availability:</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <form name="availabilityForm" ng-submit="submitForm()" novalidate>
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" name="name" class="form-control" ng-model="user.name" required>
+                        <p ng-show="availabilityForm.name.$pristine" class="help-block">Your first name is required</p>
+                    </div>
+                    <div class="form-group">
+                        <label>Surname</label>
+                        <input type="text" name="password" class="form-control" ng-model="user.surname" required>
+                        <p ng-show="availabilityForm.password.$pristine" class="help-block">Your surname is required</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="email" class="form-control" ng-model="email.text" required>
+                        <p ng-show="availabilityForm.email.$pristine" class="help-block">Your email is required</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Telephone</label>
+                        <input type="number" name="telephone" class="form-control" ng-model="telephone.number" required>
+                        <p ng-show="availabilityForm.telephone.$pristine" class="help-block">Your telephone is required</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Dates required</label>
+                        <input type="date" name="availability" class="form-control" ng-model="date.availability" required>
+                        <p ng-show="availabilityForm.password.$pristine" class="help-block"></p>
+                    </div>
+
+                    <button type="submit" class="btn btn-default" ng-disabled="availabilityForm.$invalid">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

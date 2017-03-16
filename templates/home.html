@@ -1,22 +1,35 @@
-<link href="/css/style.css" rel="stylesheet" type="text/css">
-<style>
 
-  #carousel-example-generic{
-    width: 30%;
-    margin: auto;
-    padding: 20px;
-  }
-.container-fluid{
-  margin-bottom: 50px;
-}
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Hey Guys</h4>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
-  </style>
   <div class="container-fluid">
 
     <div class="row">
 
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" class ="box">
             
     
             
@@ -24,21 +37,20 @@
   <source src="audio/We're on the same side.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+<a href="https://itunes.apple.com/us/podcast/brainstorm/id755050884?mt=2&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url('//linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png') no-repeat;width:61px;height:15px;"></a>
 <br/>
 <audio controls>
   <source src="audio/Wooden Flame.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+<a href="https://itunes.apple.com/us/podcast/brainstorm/id755050884?mt=2&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url('//linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png') no-repeat;width:61px;height:15px;"></a>
 <br/>
-<audio controls>
-  <source src="audio/piano test.aif" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+
             
             
         </div>
             
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" class="box" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -82,22 +94,8 @@ Your browser does not support the audio element.
  </div>
 </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <h2>Contact Us:</h2>
-            <p><div class="form">
-                        <label>Name:</label>
-                        <input type="text" name="name" class="form-control" ng-model="user.name" required>
-                        <p>Your surname is required</p>
-                    </div>
-
-                    <div class="form">
-                        <label>Email:</label>
-                        <input type="email" name="email" class="form-control" ng-model="email.text" required>
-                        <p>Your email is required</p>
-                    </div>
-            </p>
-            <a href="#" class="btn btn-outline-secondary">
-        Submit</a>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" class="box">
+            <p style="font-family:Quicksand, sans-serif; color: gray; font-size: 15px;"> We are four pianists that play solos, duets and even four-piece concerts across the UK. Our main gigs include weddings, birthdays, funerals, events and accompaniments for various choirs and orchestral concerts. We play jazz, pop, classical, blues and electronic genres. Whatever you need, send through your requirements and we will see what we can do! </p>
         </div>
 
 
@@ -119,7 +117,10 @@ Your browser does not support the audio element.
                 </a>
         </footer>
 
+<script type="text/javascript">
+$(document).ready(function () {
 
-<script src='http://code.jquery.com/jquery.min.js'></script>
-<script src='bootstrap/js/bootstrap.min.js'></script>
- 
+    $('#myModal').modal('show');
+
+});
+</script> 

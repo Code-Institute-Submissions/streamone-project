@@ -15,6 +15,11 @@ angular.module('BandApp').config(function($routeProvider, $locationProvider) {
     
   .when('/book/gigs', {
         templateUrl: 'templates/gigs.html',
-        controller: 'RegisterController'
+    })
+.when('/about', {
+        templateUrl: 'templates/about.html'
+    })
+  .when('/listen', {
+        templateUrl: 'templates/listen.html'
     });
 });

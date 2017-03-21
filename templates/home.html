@@ -6,18 +6,28 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Hey Guys</h4>
+        <h4 class="modal-title">Enter your details below to receive our newsletter:</h4>
       </div>
       <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                    <form name="todoForm" ng-submit="submitForm()" novalidate>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control" ng-model="todo.title" required>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="email" class="form-control" ng-model="todo.description" required>
+                        
+                   
+                    <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                    <button type="close" class="btn btn-default">Close</button>
+                </div>
+                </form>
+                
+                </div>
+      
       </div>
     </div>
 
@@ -29,28 +39,9 @@
 
     <div class="row">
 
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" class ="box">
+      
             
-    
-            
-  <audio controls>
-  <source src="audio/We're on the same side.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<a href="https://itunes.apple.com/us/podcast/brainstorm/id755050884?mt=2&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url('//linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png') no-repeat;width:61px;height:15px;"></a>
-<br/>
-<audio controls>
-  <source src="audio/Wooden Flame.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<a href="https://itunes.apple.com/us/podcast/brainstorm/id755050884?mt=2&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url('//linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png') no-repeat;width:61px;height:15px;"></a>
-<br/>
-
-            
-            
-        </div>
-            
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" class="box" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" class="box" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -94,28 +85,16 @@ Your browser does not support the audio element.
  </div>
 </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" class="box">
-            <p style="font-family:Quicksand, sans-serif; color: gray; font-size: 15px;"> We are four pianists that play solos, duets and even four-piece concerts across the UK. Our main gigs include weddings, birthdays, funerals, events and accompaniments for various choirs and orchestral concerts. We play jazz, pop, classical, blues and electronic genres. Whatever you need, send through your requirements and we will see what we can do! </p>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" class="box">
+            <p style="font-family:Quicksand, sans-serif; color: gray; font-size: 17px;"> <br/> <br/> We are four pianists that play solos, duets and even four-piece concerts across the UK. Our main gigs include weddings, birthdays, funerals, events and accompaniments for various choirs and orchestral concerts. We play jazz, pop, classical, blues and electronic genres. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Whatever you need, send through your requirements and we will see what we can do! </p>
         </div>
 
 
     </div>
   </div>
- <footer class="col-12">
-            <div>
-                <a href="[full link to your Twitter]">
-                    <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
-                </a>
-                <a href="[full link to your Facebook page]">
-                    <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
-                </a>
-                <a href="[full link to your LinkedIn]">
-                    <img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" />
-                </a>
-                <a href="[full link to your Instagram]">
-                    <img title="Instagram" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
-                </a>
-        </footer>
+
 
 <script type="text/javascript">
 $(document).ready(function () {

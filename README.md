@@ -1,46 +1,30 @@
-# Angular Todo App
+# Monochrome Music
 
 ## Overview
  
-### What is this app for?
+### Objectives
+
+Build a static front-end website for a band or music group. Allow the user to be able to search for the band's commerical tracks and purchase from third-party sites. Create a mailing list and be able to subscribe to a newsletter. Publicise upcoming gigs and availability for bookings and costs. Create links to Facebook, Twitter and YouTube pages. 
  
-This is a Todo app. It helps users to keep track of any things that they have todo.
- 
-### What does it do?
+
+ ### What does it do?
  
 This app will allow users to register and login. Once the users have done that, they'll be able to create items to add to their todo list. Once they've created their todo list, they'll be able to update the status of each item and even delete items!
  
 ### How does it work
  
-This app uses JSON Web Tokens to authenticate users and keep them logged in. All the data is consumed from an API hosted on Heroku using AngularJS. The site is styled with Bootstrap.
+This app uses Angular JS as a framework. The site is styled with Bootstrap.
 
-## Features
-
-### Existing Features
-- None yet!
- 
-### Features Left to Implement
-- User Based Features
-    - Registration
-    - Login
-    - Logout
-- Todo Based Features
-    - Creating Todo Items
-    - Retrieving Todo Items
-    - Updating Todo Items
-    - Deleting Todo Items
  
 ## Tech Used
  
 ### Some of the tech used includes:
 - [AngularJS](https://angularjs.org/)
-    - We use **AngularJS** to handle page routing, we also use it to make calls to the REST API and build custom directives
 - [Bootstrap](http://getbootstrap.com/)
-    - We use **Bootstrap** to give our project a simple, responsive layout
 - [npm](https://www.npmjs.com/)
-    - We use **npm** to help manage some of the dependencies in our application
 - [bower](https://bower.io/)
-    - **Bower** is used to manage the installation of our libraries and frameworks
+- [JavaScript]
+
 
 ## Contributing
 

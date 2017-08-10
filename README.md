@@ -20,15 +20,15 @@ This website uses Angular JS as a framework and is styled using Bootstrap.
  
 ### Some of the tech used includes:
 - [AngularJS](https://angularjs.org/)
-AngularJS handles routing and builds custom directives
+ handles routing and builds custom directives
 - [Bootstrap](http://getbootstrap.com/)
-Bootstrap is used to create a responsive layout
+ is used to create a responsive layout
 - [npm](https://www.npmjs.com/)
-Npm is used to install http-server
+ is used to install http-server
 - [bower](https://bower.io/)
-Bower is used to manage front-end components
+ is used to manage front-end components
 - [JavaScript](https://javascript.com/)
-JavaScript is used for interactivity
+ is used for interactivity
 
 ## Testing
 

@@ -139,11 +139,11 @@ table{
       height: 100px;
       border: 1px none #ccc;
       text-align: center;
-      color: white;
+      color: #538A8A;
        font-family: Quicksand, sans-serif;
     }
     th {
-      color: white;
+      color: #F9FF33;
       font-size: 20px;
        font-family: Quicksand, sans-serif;
     }
@@ -151,6 +151,7 @@ table{
       padding: 1rem;
        font-family: Quicksand, sans-serif;
       font-size: 15px;
+      color: red;
     }
 
 /* availability */

@@ -49,4 +49,3 @@ This website uses Angular JS as a framework and is styled using Bootstrap.
 4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
 5. Once **http-server** is installed run ```http-server```
 6. The project will now run on [localhost](http://127.0.0.1:8080)
-7. Make changes to the code and if you think it belongs in here then just submit a pull request

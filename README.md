@@ -9,7 +9,7 @@ Build a static front-end website for a band or music group. Allow the user to be
 
  ### What does it do?
  
-This website allows those interested to interact with the band via a newsletter or availability form and book tickets to gigs (although it is only a front-end site). It offers information about the band and a range of social media links. 
+This website allows users to interact with the band via a newsletter or availability form and book tickets to gigs (although it is only a front-end site). It offers information about the band and a range of social media links. 
  
 ### How does it work
  

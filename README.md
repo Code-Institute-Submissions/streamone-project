@@ -9,7 +9,7 @@ Build a static front-end website for a band or music group. Allow the user to be
 
  ### What does it do?
  
-This website allows those interested to interact with the band via a newsletter or availability form and book tickets to gigs (although it is only a front-end site). It offers information about the band and a range of social media links. 
+This website allows users to interact with the band via a newsletter or availability form and book tickets to gigs (although it is only a front-end site). It offers information about the band and a range of social media links. 
  
 ### How does it work
  
@@ -49,4 +49,3 @@ This website uses Angular JS as a framework and is styled using Bootstrap.
 4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
 5. Once **http-server** is installed run ```http-server```
 6. The project will now run on [localhost](http://127.0.0.1:8080)
-7. Make changes to the code and if you think it belongs in here then just submit a pull request

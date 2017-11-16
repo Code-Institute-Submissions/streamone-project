@@ -1,5 +1,13 @@
 /* index */
 
+html, body {
+ margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header-img{
   width: 100%;
 
@@ -8,25 +16,42 @@
 .header-img img{
   width: 100%;
   height: 1000px;
+  border: none;
+  margin: none;
 }
 
 .header-text 
 {
   width:100%;
   position:fixed;
-  margin-top: -60%;
+  margin-top: -55%;
 }
 
 .header-text h1{
   text-align:center;
   color: white;
-
 }
 
 body{
   background-color: white;
   }
 
+p{
+   color: black;
+    font-size: 15px;
+  font-weight: 200;
+   font-family: Quicksand, sans-serif;
+}
+  .pop{
+    color: black;
+    font-size: 15px;
+  font-weight: 200;
+   font-family: Quicksand, sans-serif;
+  }
+
+h4{
+  color:black;
+}
   .navbar-brand{
   font-size: 20px;
   font-family: Quicksand, sans-serif;
@@ -56,7 +81,6 @@ body{
   
 }
 
-
 audio{
   width: 30%;
   align-items: right;
@@ -75,10 +99,36 @@ h2{
   font-weight: 100;
 }
 
+.carousel{
+  padding: 20px;
+}
+
+button{
+  color:black;
+  text-decoration: none;
+}
+
+.btn{
+  color:black;
+  text-decoration: none;
+
+}
+
+.avail-btn{
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box{
+  padding: 20px;
+}
+
 
 .btn.outline {
   background: none;
   padding: 12px 22px;
+  border: none;
 }
 
 .btn-primary.outline {
@@ -106,31 +156,61 @@ position: fixed;
   right: 200px; top: 200px; z-index: 200;
 }
 
+.modal-content{
+  background-color: #796E6B;
+  text-align: center;
+
+}
+
+.modal-title{
+  font-family: Quicksand, sans-serif;
+  color: white;
+}
+
+.modal-body p{
+  font-family: Quicksand, sans-serif;
+  color: white;
+  text-align: center;
+
+}
+
+.modal-body > .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* listen */
 
 .container-fluid{
-  padding: 50px;
-}
+  width: 100%;
+  margin: none;
+  border: none;
+  padding: 30px;
+
+  }
 audio{
   margin: 0 auto;
   text-align: center;
   width: 100%;
+
+}
+
+
+.iframe{
+  padding: 40px;
 }
 
 /* gigs */
 
 table{
-
   width:100%;
-  position:fixed;
-  margin-top: -72%;
+
    }
 
    .booking-text{
   width:100%;
-  position:fixed;
-  margin-top: -72%;
    font-family: Quicksand, sans-serif;
 }
         
@@ -139,11 +219,11 @@ table{
       height: 100px;
       border: 1px none #ccc;
       text-align: center;
-      color: #538A8A;
+      color: black;
        font-family: Quicksand, sans-serif;
     }
     th {
-      color: #F9FF33;
+      color: grey;
       font-size: 20px;
        font-family: Quicksand, sans-serif;
     }
@@ -154,10 +234,11 @@ table{
       color: red;
     }
 
+
 /* availability */
 
 .form-title{
-  color: #538A8A;
+  color: grey;
    font-family: Quicksand, sans-serif;
 }
 .container-form{
@@ -187,7 +268,7 @@ h1{
 
 label{
   font-size: 20px;
-  color: #F9FF33;
+  color: grey;
   font-weight: 200;
    font-family: Quicksand, sans-serif;
 }
@@ -195,7 +276,7 @@ label{
 .help-block{
   font-size: 15px;
   font-weight: 200;
-  color: red;
+  color: black;
    font-family: Quicksand, sans-serif;
 }
 
@@ -207,8 +288,14 @@ label{
   
 }
 
-
-
+footer{
+  background-color: #262626;
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  margin: none;
+  border: none;
+}
 
 
 

@@ -32,7 +32,7 @@ This website uses Angular JS as a framework and is styled using Bootstrap.
 
 ## Testing
 
-## Media
+Routes have been tested with Jasmine. 
 
 ### Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command

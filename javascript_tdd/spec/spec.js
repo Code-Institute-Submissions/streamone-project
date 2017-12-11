@@ -13,6 +13,8 @@ inject(function ($route) {
   expect($route.routes['/'].controller).not.toBe('MusicController');
   expect($route.routes['/'].templateUrl).not.toEqual('templates/music.html');
 
+
 }));
 
 });
+
